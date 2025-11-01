@@ -1,0 +1,485 @@
+question,cluster_name
+কার্ড এ আরেক লোক এর তথ্য আসছে,matchFoundErrors
+তুই চুপ কর,agentTransferRequest
+দ্বৈত নাগরিকত্ব সনদ বিষয়ে কার সাথে যোগাযোগ করা যেতে পারে,dualCitizenship
+আর কিছু দরকার হবে,applicationFailures
+প্রথম ভোটার হওয়ার আবেদন ফরমে শনাক্তকারী কে,newVoterProcess
+তুমি কিছু জানো না,applicationFailures
+সংশোধন প্রক্রিয়া শেষ,correctionApplicationStatus
+নতুন কার্ড নিবন্ধনের জন্য বয়স কত হওয়া লাগে,ageEligibility
+আমার আইডি অটো লক হয়ে গেছে কিভাবে কি করবো,accountLocked
+আমার আইডিতে পিতার নামের বানান ভুল,nameSpellingCorrection
+সংশোধনের মেসেজ পেয়েছি কিন্তু কার্ড ডাউনলোড করতে পারছি না,onlineApplicationProcess
+আমার কার্ডে আমার বাবার নামের আগে মৃত উল্লেখ করা কি করা যাবে,deceasedRelativeInfo
+সেবা পেয়ে খুশি হয়েছি,personalStatusChanges
+কার্ডে প্রফেশন আপডেট করতে করনীয় কি,onlineApplicationProcess
+জাতীয় পরিচয়পত্রের জন্য ওয়েবপোর্টালে কি কি সেবা পাবো না,onlineServicesInquiry
+বাবা মার এনআইডি নম্বরটা যে আমি ভোটার হিসেবে দিয়েছি সেটা কি এখন পরিবর্তন করা যাবে,nameChangeProcess
+বাতিল হওয়া আবেদনের টাকা ফেরত পাবো কেমনে,applicationCancelled
+বয়স বা জন্ম তারিখ পরিবর্তন করার প্রক্রিয়া কি,ageEligibility
+কীভাবে অনলাইন এনআইডি পোর্টালে সংশোধন আবেদন করতে হয়,onlineApplicationProcess
+ঠিকানায় উপজেলার ঘর ফাঁকা থাকার কারণে অনলাইন পোর্টাল এ নিবন্ধন করতে সমস্যা হচ্ছে,upazilaFieldEmpty
+মা'র নাম সংশোধন করার জন্য বাংলাদেশের ন্যাশনাল আইডেন্টিটি কার্ডে কি কি দলিল জমা দিতে হবে,nameCorrectionDocuments
+উপজেলা অফিসে গেলে আমার ভোটার আবেদন নিচ্ছে না,newVoterNoSms
+পরে আবার কথা হবে ইনশাআল্লাহ,agentTransferRequest
+বাংলাদেশের এমবাসি অফিসে প্রবাসে থাকি তাই কার্ড নিবন্ধন আবেদন দিয়েছি,overseasRegistration
+আমার আম্মা মারা গেছে,deceasedRelativeInfo
+এখন কি পরের ধাপ,applicationFailures
+পুনরায়-ইস্যু করার জন্য কত টাকা জমা দিতে হবে,reissueStatus
+স্থায়ী ঠিকানা সংশোধনের আবেদন করলে কতদিনে আপডেট হয়,addressChangeTime
+আমি কার্ড আপডেট করে নতুন কার্ড ডাউনলোড করেছি,websiteErrors
+ফিঙ্গারপ্রিন্ট দিয়ে তথ্য যাচাইয়ের সময় সমস্যা হচ্ছে,formPrintIssues
+আমার স্মার্ট কার্ড পেতে কতদিন সময় লাগবে,smartCardConversion
+ফি জমা দিয়েও আবেদন না করলে কি টাকা ফেরত পাওয়া যাবে,registrationFees
+প্রথম ভোটার হওয়ার ফরমে শনাক্তকারী কে লিখব,newVoterProcess
+ভোটার এলাকা নাম,upazilaFieldEmpty
+দ্রুত ভোটার হওয়ার জন্য কোন ব্যবস্থা আছে,newVoterProcess
+আমি কি ইন্টারনেটের মাধ্যমে আমার ঠিকানা পরিবর্তনের জন্য আবেদন করতে পারি,onlineAddressInquiry
+তালাক হয়ে গেলে জাতীয় কার্ড থেকে জামাইর নাম বাদ দেওয়া যাবে কিভাবে,nameCorrectionDocuments
+অনলাইন পোর্টালে কি কি সেবা পাওয়া যায়,onlineServicesInquiry
+আমি ছবি তুলেছি কিন্তু এখন ভোটার তালিকায় নাম নেই,photoTakenNoCard
+দুইবার ভোটার নিবন্ধন করে ফেললাম,newVoterDuplicates
+এনআইডি কার্ডে মা'র নাম বদলাতে কি কি কাগজপত্র লাগবে,nameCorrectionDocuments
+ভোটারের জন্য আবেদন করার সময় কি কি কাগজপত্র লাগবে,newVoterProcess
+আমার জাতীয় পরিচয়পত্রের অংশবিশেষ পোকায় খেয়েছে,reissueStatus
+সকল ডকুমেন্টস সঠিক দিয়েছি তারপরও আবেদন বাতিল করা হয়েছে। কেনো,newVoterRejection
+এনআইডি সংশোধনের ফি রকেট দিয়ে পরিশোধ করার নিয়ম কী,correctionFees
+রেজিস্ট্রেশন করতে গেলে ভুল পাসওয়ার্ড দেখায় কি করবো,passwordErrors
+একই মোবাইল নম্বর দিয়ে কি দশবার (XX বার) ভোটার নিবন্ধন করা যাবে,generalQueries
+আপনার ঠিকানা পরিবর্তন আবেদন মেসেজ পেয়েছি,onlineAddressInquiry
+আমার ভোটার আইডির কারেন্ট এড্রেস বদল করতে কি করতে হবে,addressUpdateProblems
+সংশোধন আবেদনের অবস্থা জানতে ওয়ান জিরো ফাইভ এ ফোন করেছি,correctionApplicationStatus
+আরজেন্ট রি-ইস্যু করার পর সাত দিন পার হয়ে গেছে কার্ড পায়নি কেন,reissueStatus
+টিন নম্বর সংযোজনের জন্য কি কি নথি লাগবে,requiredDocuments
+কিভাবে আমি আমার ভোটার এলাকার নাম,upazilaFieldEmpty
+এনআইডি কার্ডে কতোজন স্ত্রীর নাম সংযোজন করা যাবে,nameCorrectionDocuments
+আমি বিদেশে থাকাকালীন আমার জাতীয় পরিচয়পত্রের ছবি তুলেছিলাম,photoTakenLongAgo
+এই চ্যাটবট কি আমার ভোটার আইডি তথ্য আপডেটের জন্য নির্দেশনা দিতে পারে,chatbotCapabilities
+আমার চিপসহ কার্ড কি অন্য কেউ নিতে পারবে,websiteErrors
+কার্ড অনলাইন পোর্টালে নিবন্ধন করে কীভাবে,onlineServicesInquiry
+হারানো কার্ডের তথ্য নেই,receiptLostSolutions
+ফরম নম্বর আছে আগে কার্ড নেই নাই অনলাইন এ রেজিস্ট্রেশন করতে পারতেছি না কি দিয়ে রেজিস্ট্রেশন করতে পারি,onlineServicesInquiry
+এআই না এজেন্টের সাথে কথা বলতে চাই,generalQueries
+নতুন ভোটার হওয়ার ফরমে শনাক্তকারী কার নাম দিতে হবে,newVoterProcess
+টিন নম্বরের সংযোজন বা সংশোধন করার জন্য কী কী নথি প্রয়োজন,requiredDocuments
+হারানো এনআইডি এর কারণে নতুন স্মার্ট কার্ড কিভাবে পাবো,receiptLostSolutions
+আমি ইতালিতে আছি। কি করে আমি বাংলাদেশের এনআইডি কার্ড পেতে পারি,overseasRegistration
+সংশোধনের জন্য আবেদন স্লিপ হারালে কি হবে,applicationCancelled
+পরবর্তীতে আবার যোগাযোগ করবো,agentTransferRequest
+পুরান জন্ম সনদ অনলাইনে আপলোড করা যায় না,unavailableServices
+সংশোধনের জন্য অনেক দিন আগে আবেদন করেছি,correctionApplicationStatus
+আমার কার্ডে ভুল তথ্য এসেছে,correctionErrors
+জি আমার আর কিছু জিজ্ঞাস করার নাই,applicationFailures
+স্থায়ী ঠিকানা পরিবর্তনের জন্য অনলাইনে আবেদন করতে পারবো,onlineAddressInquiry
+আব্বার এনআইডি নম্বর চেঞ্জ জন্য কি কি প্রমাণপত্র জমা দিতে হবে,nameChangeProcess
+এনআইডি আবেদনে তথ্য সঠিক নয় বলে দেখছি,correctionErrors
+এনআইডি কার্ডে বর্তমান ঠিকানা সংশোধনের জন্য কি করতে হবে,addressUpdateProblems
+সংশোধনের জন্য ফিস জমা দিয়েছি,correctionFees
+আমার আগের কার্ডে হাজবেন্ড এর নাম ছিল,matchFoundErrors
+দ্বৈত নাগরিকত্বের সনদ কারা দেয়,dualCitizenship
+কীভাবে কার্ড সংশোধনের কাজ অনলাইনে করা সম্ভব,onlineApplicationProcess
+শক্ত নতুন যে কার্ড টা দেয়া সেই কার্ড নিতে কি কত খরচ লাগে,newVoterFees
+জন্মস্থানে ভুল আছে,correctionErrors
+বাংলাদেশে আমার জাতীয় পরিচয়পত্র আছে,overseasRegistration
+বাংলাদেশের এনআইডি কার্ড করার জন্য প্রবাসী হিসেবে কী করতে হবে,overseasRegistration
+ভোটার কার্ড তোলার জন্য স্লিপ না থাকলে কী করবো,websiteErrors
+আমার পাসপোর্ট নম্বর সংযোজন বা সংশোধন করতে কি কি ডকুমেন্টস লাগবে,requiredDocuments
+ডিজিটাল কার্ড প্রিন্ট হয়েছে কিনা কীভাবে নিশ্চিত হবো,smartCardPrintStatus
+দ্বৈত নাগরিকত্ব সনদ সম্পর্কে জানতে কার সাথে যোগাযোগ করতে হবে,dualCitizenship
+চ্যাটবট থেকে কি ধরনের সহায়তা পাওয়া যাবে,chatbotCapabilities
+আমার আব্বার ভোটার রেজিস্ট্রেশন এ ঠিকানা চাঁদপুর আমার ঢাকা দিতে চাচ্ছি,differentAddresses
+আমার কার্ড এ বাবার নাম ভুল আছে কি করা উচিত,nameSpellingCorrection
+মৃতের আইডি কার্ড সংশোধনের প্রক্রিয়া কি,onlineApplicationProcess
+বাতিল হওয়া সংশোধন আবেদনের জন্য পুনরায় টাকা জমা দেবো কি,applicationCancelled
+ভোটার হতে গেলে কোন শর্ত পূর্ণ করতে হবে,newVoterProcess
+আমি বরিশালে থাকি এবং অনেকদিন আগে ভোটার হওয়ার জন্য ছবি তুলেছি কিন্তু এখনো কোনো মেসেজ পাইনি। এনআইডি নাম্বার পাবো কীভাবে,photoTakenNoCard
+আমার এনআইডি কার্ড সংশোধন করতে চেয়েছিলাম,onlineApplicationProcess
+আপনি কি বলতে পারেন,agentTransferRequest
+আমি আমার ন্যাশনাল আইডেন্টিটি কার্ডের জন্য অনলাইনে আবেদন করেছি কিন্তু তথ্য সঠিক নয়,passwordErrors
+প্রবাসী বা দেশের বাহিরে থাকলে কার্ড নিবন্ধনের জন্য প্রয়োজনীয় ডকুমেন্টস কি কি,overseasRegistration
+পেশা পরিবর্তনের জন্য কি করতে হবে,onlineApplicationProcess
+স্মার্ট কার্ডের জন্য ফি কত,newVoterFees
+ন্যাশনাল আইডেন্টিটি কার্ডে পাসপোর্ট নম্বর যোগ বা সংশোধনের জন্য কি কি কাগজপত্র দিতে হবে,requiredDocuments
+কার্ড এর অনলাইন সাইট এ রেজিস্ট্রেশন করবো কিভাবে,onlineServicesInquiry
+আমি পাশ না করেও অজ্ঞতাবশতঃ শিক্ষাগত যোগ্যতা এসএসসি বা তদুর্দ্ধ লিখেছিলাম এখন আমার বয়স বা অন্যান্য তথ্যাদি সংশোধনের উপায় কি,correctionErrors
+ডিজিটাল কার্ড গুম হয়ে গেছে,receiptLostSolutions
+সংশোধন ফি জমা দিয়েছি,correctionFees
+এই সেবার মাধ্যমে কি ভুল জাতীয় পরিচয় পত্র নম্বর সংশোধন করা সম্ভব,correctionErrors
+পাসপোর্টের সময় শেষ হওয়ার পরেও কি দেশের বাহির থাকা অবস্থায় ভোটার নিবন্ধন করা যাবে,overseasRegistration
+কোন কারণে দুইবার ভোটার হয়ে গেছে,newVoterDuplicates
+নিবন্ধন সিল্প এ থাকা নম্বর দিয়ে এপ্লিকেশন এ রেজিস্ট্রেশন করতে পারছি না,unavailableServices
+পুরানো কার্ডটি খুঁজে পেয়েছি,matchFoundErrors
+নতুন ভোটার নিবন্ধনের জন্য কত টাকা ফি লাগে,registrationFees
+পিতামাতার এনআইডি নাই,requiredDocuments
+স্বামী তালাক দিয়েছে,personalStatusChanges
+বিয়ের পর এনআইডি কার্ডে স্বামী নাম যোগ করার জন্য কি কি ডকুমেন্টস লাগবে,nameCorrectionDocuments
+আমি একবারই ভোটার হয়েছি,newVoterDuplicates
+আবেদন দেওয়ার পর এডজুডিকেশন পেন্ডিংঅবস্থায় থাকার কারণে কি করা উচিত,pendingApplications
+আমার এলাকায় স্মার্ট কার্ড বিতরণের পরেও কেন আমি কার্ড পাইনি,smartCardConversion
+স্মার্ট বা নতুন চিপসহ কার্ড প্রিন্ট না হওয়ার কারণ কী,smartCardPrintStatus
+আমি হচ্ছে নিউ ভোটার এপ্লিকেশন করতে চাই,newVoterDuplicates
+পিতার ন্যাশনাল পরিচয়পত্রের নম্বরটি কেমন করে বদলাবো,nameChangeProcess
+কার্ড এ স্বামীর বা স্ত্রীর নামের আগে ভুল কইরা মৃত লিখা কি করব,deceasedRelativeInfo
+যদি সংশোধন আবেদন বাতিল হয়,applicationCancelled
+কার্ড সংশোধন এর জন্য কোন ওয়েবসাইটে যেতে হবে,onlineApplicationProcess
+আমি বেশ কয়েকদিন ধরে ছবি তুলছি,photoTakenLongAgo
+আমার এলাকা থেকে স্মার্ট কার্ড বিতরণ হয়েছে,smartCardConversion
+আমি এনআইডি-এর জন্য ছবি দিয়েছি কিন্তু আমার কার্ড এখনো পাই নাই,photoTakenNoCard
+আমার কার্ড পুড়ে বা নষ্ট হয়ে গেছে,reissueStatus
+আমার ভোটার কার্ডে ফোন নম্বরটা দেওয়া লেখা হয়েছে,matchFoundErrors
+কার্ডে সিগনেচার পরিবর্তন করতে হলে কি কি দরকার,onlineApplicationProcess
+নতুন ভোটার হয়েছিলাম,newVoterDuplicates
+আমার নতুন ভোটারের আবেদন নিয়ে উপজেলা নির্বাচন অফিস কিছু করছে না,newVoterNoSms
+ভোটার নিবন্ধন ফরম ডাউনলোড করার পর কোথায় জমা দিবো,onlineServicesInquiry
+কার্ড এ মার নামের আগে মৃত লিখা কি করব,deceasedRelativeInfo
+ভোটার স্থানান্তরের আবেদন প্রক্রিয়াধীন,faceVerificationCompleted
+স্মার্ট বা নতুন আইডি কার্ডে স্বামীর নাম না থাকার কারণ কি,nameCorrectionDocuments
+ফেস ভেরিফিকেশন হচ্ছে না এপ এ,unavailableServices
+আমি আমার এনআইডি তে নতুন ফোন নম্বর যোগ করতে চাই,requiredDocuments
+এনআইডি কার্ডে পিতা-মাতার নাম সংশোধনের জন্য কি ডকুমেন্টস লাগবে,nameCorrectionDocuments
+চিপস স্মার্ট কার্ড যেটা,smartCardConversion
+স্মার্ট কার্ড নেওয়ার ফি কতো,newVoterFees
+একাউন্ট লক হলে কি সঙ্গে সঙ্গে আনলক করার উপায় আছে,accountLocked
+সংশোধন ফি জমা করে আবেদন বাতিল করলে টাকা ফেরত পাবো কি,applicationCancelled
+আমার আইডি কার্ডে জন্মস্থানের ভুল সংশোধন করতে কি কি ডকুমেন্ট লাগবে,correctionErrors
+আমার আইডিতে মাতার নামের বানান ভুল,nameSpellingCorrection
+অনেক দিন ধরে এনআইডি রিইস্যু আবেদন করেছি কিন্তু এখনো প্রসেস হয়নি,pendingApplications
+কার্ড এর তথ্য দেখতে গিয়ে সমস্যা হচ্ছে,matchFoundErrors
+এডজুডিকেশন পেন্ডিংঅবস্থায় থাকা প্রবাসী এনআইডি আবেদন নিয়ে কি করা যাবে,pendingApplications
+বর্তমান ঠিকানা আপডেট করতে কত সময় লাগবে,addressChangeTime
+অনলাইনে রিইস্যু করেছি,reissueStatus
+কিভাবে স্থায়ী ঠিকানা থেকে বর্তমান ঠিকানায় ভোটার পরিবর্তন করবো,addressUpdateProblems
+এনআইডি কার্ড সংশোধন দ্রুত করতে কি বাড়তি ফি দিতে হয়,onlineApplicationProcess
+আমার সমস্যাটা জটিল,applicationFailures
+আমি কীভাবে স্মার্ট কার্ডের জন্য আবেদন করব,smartCardConversion
+অনলাইনে কার্ড সংশোধনের জন্য আবেদন করার লিঙ্ক কোনটি,onlineApplicationProcess
+কার্ড হারিয়ে গেছে কিন্তু কোন তথ্য নেই,receiptLostSolutions
+তথ্য সঠিক দেওয়ার পরেও একাউন্ট লক হয়ে গেল,accountLocked
+আমার মোবাইল নম্বর আপডেট করতে কি ডকুমেন্টস লাগবে,requiredDocuments
+প্রেজেন্ট এড্রেস বা পরিবর্তন করতে হলে কীভাবে আবেদন করতে হয়,onlineAddressInquiry
+এনআইডি একাউন্ট লক সমস্যা কবে ঠিক হবে,accountLocked
+আমার এনআইডি কার্ড নষ্ট হয়ে গেছে,receiptLostSolutions
+আমার ভোটার আইডিতে জন্মস্থানের ভুল কি কি কাগজপত্র দিয়ে সংশোধন করা যাবে,correctionErrors
+ইন্টারনেট পোর্টালে 'অপ্রত্যাশিত সমস্যার জন্য দুঃখিত' দেখাচ্ছে,passwordErrors
+বাসার ঠিকানা পরিবর্তনের সময় আমার ডাকঘর অফিস ও ডাকঘর কোড পাচ্ছি না,addressUpdateProblems
+স্থায়ী ঠিকানা আপডেটের জন্য অনলাইনে কোনো সিস্টেম আছে কি,onlineAddressInquiry
+মাতাকে মৃত উল্লেখ করতে চাইলে কি কি সনদ দাখিল করতে হয়,deceasedRelativeInfo
+অনলাইনের মাধ্যমে কার্ড এর কোন জিনিসগুলা ঠিক করা যায় না,onlineApplicationProcess
+ভোটার এলাকার স্থানান্তরে কি চেয়ারম্যানের সই লাগবে,addressUpdateProblems
+নাম সংশোধনে স্বামীর এনআইডি কার্ডের কি কি কাগজপত্র লাগে,nameCorrectionDocuments
+সংশোধন আবেদন করেছি,correctionApplicationStatus
+পিতার ঠিকানা আমার থেকে আলাদা,differentAddresses
+এলাকা পরিবর্তন করতে হলে কোন কোন ডকুমেন্ট জমা দিতে হবে,addressUpdateProblems
+সংশোধনের ফিস কত,correctionFees
+চ্যাট করা যাবে,chatbotCapabilities
+একটা মোবাইল নাম্বার দিয়ে কতবার registration করতে পারি,generalQueries
+আমার আম্মুর এনআইডি নম্বর আপডেট করতে চাই,nameChangeProcess
+কার্ড এ জামাইর নাম এর আগে কার্ড এ মৃত শব্দ যোগ করব কিভাবে,deceasedRelativeInfo
+রি-ইস্যু ফি কত,reissueStatus
+নতুন ভোটার হবার জন্য আবেদন করেছি কিন্তু কোনো মেসেজ পাইনি,newVoterNoSms
+সংশোন আবেদন করার জন্য ফি জমা দিয়েছি,registrationFees
+প্রবাসীরা কোন দেশে থাকলে কার্ড বা ভোটার নিবন্ধন করতে পারে,overseasRegistration
+রিইস্যু আবেদন পেন্ডিং থাকলে কতদিন লাগে প্রসেস হতে,reissueStatus
+পিতার নাম সংশোধনের জন্য বাংলাদেশের জাতীয় পরিচয়পত্রে কি কি ডকুমেন্টস দিতে হবে,nameCorrectionDocuments
+আমার কার্ড খোয়া গেছে এবং কোন তথ্যও নেই,matchFoundErrors
+দশ ডিজিট নম্বর দিয়ে পাসপোর্ট যাচাই করা সম্ভব হচ্ছে না,unavailableServices
+তুই কি কিছু জানিস,applicationFailures
+আমি এনআইডি এপ টা কোথা থেকে নামাইতে পারি,mobileAppIssues
+ভোটার হওয়ার জন্য দ্রুততার কোন ব্যবস্থা আছে,newVoterProcess
+আমার জাতীয় পরিচয়পত্রে পিতার নামের বানানে একটি ভুল আছে। এই সমস্যাটি সমাধান করার জন্য কোন কর্তৃপক্ষের সাথে যোগাযোগ করা উচিত,nameSpellingCorrection
+সংশোধন আবেদনের জন্য পেমেন্ট জমা দেওয়ার পদ্ধতি কি কি,correctionFees
+এনআইডি পেতে কি দ্বৈত নাগরিকত্ব থাকা জরুরি,dualCitizenship
+স্থায়ী থেকে বর্তমান ঠিকানায় ভোটার হবো কিভাবে,addressUpdateProblems
+আমার ভোটার স্থানান্তর অনুমোদিত হলেও তথ্য আপডেট না হলে কি করতে হবে,faceVerificationCompleted
+আমার জাতীয় পরিচয়পত্র তৈরির জন্য ছবি নেওয়া হয়েছিল,photoTakenLongAgo
+আমার এনআইডি-এর ঠিকানায় উপজেলার ঘর ফাঁকা,upazilaFieldEmpty
+কার্ডে মায়ের নাম এর আগে যদি মৃত শব্দটি এড করতে চাই কিভাবে করব,deceasedRelativeInfo
+এনআইডি ওয়ালেট এপ টার ডাউনলোড করার লিঙ্ক কোথায়,mobileAppIssues
+কাস্টমার কেয়ার এ কানেক্ট করুন,generalQueries
+অনলাইনে নতুন কার্ড আবেদন করার পর জমা দিতে হবে কোন পেপারস গুলি,onlineServicesInquiry
+অ্যান্ড্রয়েড না থাকলে এনআইডি ওয়ালেট কীভাবে অ্যাক্সেস করবো,mobileAppIssues
+আমার আইডির পিতার নামের বানান ভুল হয়েছে,nameSpellingCorrection
+এনআইডি কার্ডে টিন নম্বর আপডেট করার জন্য কি কি ডকুমেন্টস লাগবে,requiredDocuments
+সংশোধন আবেদন বাতিল হয়ে গেছে,applicationCancelled
+অনলাইনে আবেদন করার পর কিভাবে ফরম জমা দিতে হবে,onlineServicesInquiry
+মাতার নামের বানান ভুল,nameSpellingCorrection
+কার্ড এর জন্য ফটো তুলেছি কিন্তু স্লিপ পাই না,photoTakenNoCard
+পিতা বা স্বামীর নামের জায়গায় ভুলে মৃত উল্লেখ করা হয়েছে,deceasedRelativeInfo
+বাসা বদলে গেছি,faceVerificationCompleted
+ইন্টারনেট এ কি আবেদনগুলা করা যাবে,onlineServicesInquiry
+ফিঙ্গারপ্রিন্ট দিয়ে সিম বা একাউন্ট ভেরিফাই করতে সমস্যা হলে কি করণীয়,formPrintIssues
+পুরানো এনআইডি কার্ড হারিয়ে গেছে,receiptLostSolutions
+আমার স্মার্ট কার্ড লস্ট হয়ে গেছে,receiptLostSolutions
+আমার স্থায়ী ঠিকানায় ভোটার ছিলাম,newVoterDuplicates
+আমি কীভাবে অনলাইনে ভোটার আইডি যাচাইকরণের স্ট্যাটাস চেক করতে পারি,onlineServicesInquiry
+পুরানো এনআইডি হারিয়ে গেলে নতুন স্মার্ট কার্ড পাওয়ার উপায় কি,receiptLostSolutions
+নতুন এনআইডি বা ভোটার আবেদন করেছিলাম কিন্তু এখনো এডজুডিকেশন পেন্ডিংঅবস্থায় আছে। কি করণীয়,pendingApplications
+আগের আইডি কার্ডে স্বামীর নাম ছিলো,nameCorrectionDocuments
+ঠিকানা পরিবর্তন হয়ে গেলে নতুন কার্ড কীভাবে সংগ্রহ করব,addressUpdateProblems
+তথ্য সংশোধনের জন্য অনলাইনে আবেদন করা যাবে কি,onlineApplicationProcess
+এই চ্যাটবট কি আমার ভোটার তথ্য পরিবর্তনের বিষয়ে তথ্য সরবরাহ করে,chatbotCapabilities
+নতুন পেশায় আছি,applicationFailures
+আমি কীভাবে সাহায্য পেতে পারি,generalQueries
+বেশ কয়েকদিন ধরে আমি ছবি তুলছি,photoTakenLongAgo
+রক্তের গ্রুপ অন্তর্ভূক্ত বা সংশোধনের জন্য কি করতে হবে,bloodGroupCorrection
+নতুন এনআইডি আবেদন করে দিয়েছি কিন্তু এখনো এডজুডিকেশন পেন্ডিং,pendingApplications
+পূর্ববর্তী ভোটার এলাকার তথ্য পেতে কী করতে হবে,newVoterProcess
+এনআইডি কার্ডে মাতার নাম সংশোধনের জন্য কি ডকুমেন্টস লাগবে,nameCorrectionDocuments
+তোকে একটু ট্রল করলাম,applicationFailures
+কিউ আর কোড আসছে এইটা কি দিয়া স্ক্যান করতে কি হবে,generalQueries
+সংশোধোনের জন্য ফিস জমা দিয়েছি,correctionFees
+আমি কার্ড এর জন্য সংশোধন আবেদন করেছি,correctionApplicationStatus
+স্বামীর এনআইডি নম্বর পরিবর্তন করতে চাই।,nameChangeProcess
+প্রবাসী এনআইডি বা ভোটার নিবন্ধনের জন্য এম্বাসীতে আবেদন করেছি। আবেদন Reject করে দিয়েছে। কেনো,newVoterRejection
+এনআইডি রি-ইস্যুর সময় কি কি লাগবে,reissueStatus
+আমি কি জাতীয় পরিচয়পত্রের জন্য স্মার্ট কার্ড করতে পারি,smartCardConversion
+কার্ড এর তথ্য কয়বার ঠিক করা যায়,correctionErrors
+আজকের মাঝেই কার্ড পাওয়ার কোন ব্যবস্থা রয়েছে,websiteErrors
+নিউ কার্ড পাওয়ার জন্য কত টাকা ফিস দিতে হয়,newVoterFees
+রকেট অ্যাপ থেকে এনআইডি সংশোধনের টাকা পাঠানোর পদ্ধতি কী,correctionFees
+ছবি তুলার পর রশিদ হারানো গেলে এনআইডি কার্ড পেতে কি করতে হবে,receiptLostDuplicates
+দয়া করে আবার বলুন,agentTransferRequest
+ঠিকানা পরিবর্তন করার জন্য কত টাকা লাগবে,addressChangeFees
+সংশোধনের মেসেজ পেয়েছি কিন্তু সংশোধিত তথ্য কার্ডে আসে নাই,onlineApplicationProcess
+আমি মায়ের জাতীয় পরিচয়পত্র নাম্বার পরিবর্তন করতে চাই।,nameChangeProcess
+নতুন স্বাক্ষরের জন্য কিভাবে আবেদন করতে হবে,newVoterProcess
+নতুন আইডি কার্ড আবেদনের পর জমা দিতে হবে কী কী ডকুমেন্ট,websiteErrors
+আগে একাউন্ট খুলেছিলাম,newVoterDuplicates
+আপনি কি কি ধরনের সেবা দেন,chatbotCapabilities
+এনআইডি কার্ডে স্ত্রীর নাম সংশোধনের জন্য কি ডকুমেন্টস লাগবে,nameCorrectionDocuments
+আমার প্রোফাইল লক হয়ে গেলে তাতক্ষনিক আনলক করার নিয়ম কী,accountLocked
+আমার এনআইডি কার্ড আবেদনে তথ্যে ভুল হয়েছে,correctionErrors
+আমার এলাকার স্মার্ট কার্ড বিতরণ হয়ে গেছে,smartCardConversion
+পাসপোর্ট নম্বর সংযোজনে কি কি ডকুমেন্টস চাই,requiredDocuments
+কার্ড পেতে কত সময় লাগবে,websiteErrors
+স্লিপ হারিয়ে গেছে,receiptLostDuplicates
+আপনি কি অনলাইনে ঠিকানা পরিবর্তনের আবেদন করতে পারেন,onlineAddressInquiry
+রেজিস্ট্রেশনের কাগজ হারিয়ে গেছে,receiptLostDuplicates
+অনলাইন পোর্টালে আগের রেজিষ্ট্রেশন দিয়ে কিভাবে লগ ইন করব,onlineServicesInquiry
+নিউ এলাকায় ভোটার ঠিকানা স্থানান্তর করতে কি চেয়ারম্যানের সই লাগবে,addressUpdateProblems
+ঠিকানা পরিবর্তন করার জন্য পূর্বের ভোটার এলাকার তথ্য কোথায় থেকে পাবো,addressUpdateProblems
+নির্বাচন কমিশন সম্পর্কিত কোন ধরনের প্রশ্ন এখানে করা যেতে পারে,newVoterProcess
+আমি বাংলাদেশের জাতীয় পরিচয়পত্র স্মার্ট কার্ড করতে চাই,smartCardConversion
+স্মার্ট কার্ড নিতে আমার কত টাকা খরচ হবে,newVoterFees
+এনআইডি কার্ড নিতে দ্বৈত নাগরিকত্ব কি বাধ্যতামূলক,dualCitizenship
+স্মার্ট কার্ড বিতরণ হয়েছে আমার এলাকায়,smartCardConversion
+স্মার্ট কার্ড উত্তোলন কোথায় করবো,smartCardConversion
+অনলাইনে এনআইডি একাউন্ট তৈরী করার পর একটি কিউআর কোড এসেছে,generalQueries
+আমার স্ত্রীর জাতীয় পরিচয়পত্রের নম্বর সংশোধন করতে হবে।,nameChangeProcess
+দ্রুত ভোটার হয়ে কার্ড পাওয়ার কোন ব্যবস্থা রয়েছে,websiteErrors
+এনআইডি ওয়ালেট আইফোন এ কিভাবে ডাউনলোড করব,mobileAppIssues
+আরেকটু ক্লিয়ার করে বলুন প্লিজ,agentTransferRequest
+যাদের পরে ভোটার হয়েছিল তারা স্মার্ট কার্ড পেয়েছে,smartCardConversion
+পুরানো জন্ম সনদ আছে,matchFoundErrors
+এনআইডি কার্ড হারিয়ে গেছে এবং নষ্টও হয়েছে,receiptLostSolutions
+আমি প্রবাসী এনআইডি বা ভোটার নিবন্ধনের জন্য দূতাবাসে আবেদন করেছি। এখনো এডজুডিকেশন পেন্ডিংঅবস্থায় আছে। কি করতে হবে,pendingApplications
+কার্ডে স্বাক্ষর ভুল আছে,correctionErrors
+আমার মুখ কার্ডে ঘোলা আসছে কি করতে পারি এখন,matchFoundErrors
+নতুন ভোটারের জন্য ফর্ম প্রিন্ট করতে গেলে ফন্ট ভাঙছে,formPrintIssues
+আমার জাতীয় পরিচয়পত্রের জন্য প্রবাসে ফটো নিয়েছিলাম,photoTakenLongAgo
+প্রবাসী হিসেবে কোন দেশ থেকে ভোটার নিবন্ধন সম্ভব,overseasRegistration
+স্মার্ট কার্ড সংগ্রহ করতে কি টাকা দিতে হবে,newVoterFees
+স্মার্ট কার্ড প্রিন্ট হয়েছে কি না কিভাবে জানবো,smartCardPrintStatus
+এসএমএস আসেছে যে তথ্য সংশোধন হয়ে গেছে কিন্তু কার্ডে তথ্য আপডেট হয়নি,onlineApplicationProcess
+এই প্রশ্নের পরে কিছু আছে,applicationFailures
+কীভাবে আমার স্বাক্ষর পরিবর্তন করতে পারি,nameChangeProcess
+সংশোধনে কত টাকা খরচ হবে,correctionFees
+আমি আগে ভোটার হয়েছিলাম,newVoterDuplicates
+টিন নম্বর সংশোধনের জন্য কি কি কাগজপত্র দিতে হবে,requiredDocuments
+বিকাশে টাকা জমা করতে কি করতে হবে,correctionFees
+উপজেলার ঘর ফাকা কার্ড এ,upazilaFieldEmpty
+কেউ মারা গেলে তার আইডি সংশোধনের জন্য কোন পদ্ধতি অনুসরণ করতে হবে,onlineApplicationProcess
+এনআইডি কার্ড সংশোধনের জন্য দ্রুত সেবা পেতে কি ফি দিতে হবে,onlineApplicationProcess
+নতুন এনআইডি নিবন্ধনের জন্য বয়স কত হওয়া লাগে,ageEligibility
+এনআইডি কার্ডের ভুল ঠিক করার আবেদন কিভাবে বাতিল করবো,correctionErrors
+নতুন ভোটার হওয়ার পর স্মার্ট কার্ড কিভাবে সংগ্রহ করা যাবে,smartCardConversion
+ফিস জমা করার জন্য কতো ডিজিট নম্বর ব্যবহার করতে হবে,registrationFees
+বয়স সংশোধনের জন্য কি কি কাগজপত্র প্রয়োজন,ageEligibility
+ভুলে কার্ড এ স্বামীকে মৃত দেখানো হয়েছে,deceasedRelativeInfo
+জাতীয় পরিচয়পত্র এ একটা তথ্য কয়বার আপডেট করা যায়,onlineApplicationProcess
+আমি বাংলাদেশে আমার এনআইডি করেছিলাম,overseasRegistration
+আমার পুরানো জন্ম সনদ আছে কিন্তু অনলাইনে নাই,unavailableServices
+তথ্যটা আরেকবার দিন,agentTransferRequest
+পাসপোর্টের মেয়াদ শেষ হলে প্রবাসী হিসেবে কি ভোটার নিবন্ধন করা যাবে,overseasRegistration
+স্মার্ট বা প্লাস্টিকের কার্ড প্রিন্ট হওয়ার পিছনে কী কী সমস্যা হতে পারে,smartCardPrintStatus
+নতুন ভোটার হওয়ার পর কার্ড ডাউনলোডে কি সমস্যা হয়,websiteErrors
+এনআইডি কার্ডে স্বামীর নাম যোগ করার জন্য কি কি কাগজপত্র প্রয়োজন,nameCorrectionDocuments
+আমার স্মার্ট কার্ড গ্রহণের স্ট্যাটাস জানতে হবে।,smartCardConversion
+আমার স্মার্ট কার্ড চুরি হয়ে গেছে,receiptLostSolutions
+ভুল করে জীবিত মাতার নামের পূর্বে মৃত এসেছে,deceasedRelativeInfo
+মোবাইলে এপ্লাই করার পরে ভুল তথ্য জমা দেওয়া হয়েছে,correctionErrors
+প্রবাসী ভোটার নিবন্ধন আবেদন Reject হওয়ার কারণ কী,newVoterRejection
+কি কি কাগজপত্র লাগবে যাতে আমি আমার জাতীয় পরিচয়পত্রে মোবাইল নম্বর আপডেট করতে পারি,requiredDocuments
+এই পর্যন্ত ঠিক,applicationFailures
+আমার নিবন্ধন এর ছোট কাগজে যে নম্বর আছে সেটা দিয়ে রেজিস্ট্রেশন হচ্ছে না,unavailableServices
+ভুল করে জীবিত স্বামীর নামের পূর্বে মৃত এসেছে,deceasedRelativeInfo
+ফেস এর স্টেপ ক্লিয়ার করছি সম্পন্ন হচ্ছে না,unavailableServices
+স্মার্ট কার্ড হারিয়ে গেলে,receiptLostSolutions
+আমি একশত পাঁচ এ ফোন করে আবেদনের অবস্থা জানলাম,generalQueries
+আমি প্রাপ্তি রশিদ হারিয়েছি,receiptLostDuplicates
+নতুন ভোটার হয়ে স্মার্ট বা প্লাস্টিকের কার্ড পেতে কি করতে হবে,websiteErrors
+এনআইডি ওয়ালেট এপ এ ফেস ভেরিফিকেশন সম্পন্ন হয়েছে,faceVerificationCompleted
+তুমি কি ছেলে নাকি মেয়ে,personalStatusChanges
+মোবাইল দিয়ে পোর্টালে কোন আবেদনগুলো করা সম্ভব নয়,mobileAppIssues
+আমার বাংলাদেশী জাতীয় পরিচয়পত্রের জন্য ফটো নেওয়া হয়েছিল,photoTakenLongAgo
+এনআইডি কার্ড পেতে আমাকে বাংলাদেশে যেতে হবে কি-না প্রবাসী থাকাকালীন,overseasRegistration
+ঠিকানা স্থানান্তরের জন্য কি চেয়ারম্যানের স্বাক্ষর আবশ্যক,addressUpdateProblems
+কার্ড ভুল তথ্য ঠিক করাতে কত সংখ্যক বার আবেদন করা যাবে,correctionErrors
+কিছু ভুল ইনফো দিয়েছিলাম একাউন্ট লক হয়ে গেছিল এখন আট ঘন্টা পরেও এইটা খুলতেছে না কি করবো,accountLocked
+আমার এনআইডি কার্ডের কিছু অংশ জলে ভিজে গেছে,reissueStatus
+স্মার্ট কার্ড সংশোধনের জন্য 'স্মার্ট কার্ড' অপশন সিলেক্ট করেছিলাম,smartCardConversion
+এনআইডি ম্যাচ ফাউন্ড বা এনআইডি MATCH FOUND দেখছি কিন্তু ভোটার তথ্য যাচাইয়ে কাজ হচ্ছে না,unavailableServices
+নতুন ভোটার এপ্লিকেশন বাতিল হলে আমি কি করব,applicationCancelled
+নতুন ভোটারের আবেদন জমা দেওয়ার সময় কি কি ডকুমেন্টস দরকার,newVoterProcess
+লক আইডিতে তথ্য ঠিক দেওয়ার পরেও লক দেখাচ্ছে,accountLocked
+আমার কার্ড কেন রিজেক্টেড হইলো,newVoterRejection
+আমি দেশ এ নাই অবস্থায় ভোটার নিবন্ধনের প্রক্রিয়া কি,newVoterProcess
+হালনাগাদ করার সময় ভোটার নিবন্ধন করতে পারিনি,newVoterNoSms
+আমার এনআইডি কার্ডের পিতার নামের বানান ভুল,nameSpellingCorrection
+ইন্টারনেটের মাধ্যমে কি ধরনের আবেদন আমি করতে পারব না,onlineServicesInquiry
+এডজুডিকেশন পেন্ডিংঅবস্থায় থাকা এনআইডি এর জন্য কি করণীয়,pendingApplications
+সংশোধন ফি জমা করেছি,correctionFees
+কীভাবে অন্য কেউ আমার চিপসহ কার্ড নিতে পারবে,websiteErrors
+নতুন ভোটার হতে চেয়েছি কিন্তু উপজেলা নির্বাচন অফিস আমার আবেদন নিচ্ছে না,newVoterNoSms
+আমি ইন্টারনেটের মাধ্যমে কি কি আবেদন করতে পারব না তা জানতে চাই। আপনি কি আমাকে সাহায্য করতে পারেন,onlineServicesInquiry
+পেশা ঠিক নেই,applicationFailures
+ফিঙ্গারপ্রিন্ট দিয়ে তথ্য পাওয়া যাচ্ছে না,formPrintIssues
+ব্লাড গ্রুপ এ ভুল আছে,bloodGroupCorrection
+ফর্ম এনআইডি এফ এন নয় এক দুই তিন চার আট এক শূন্য এক নম্বর দিয়ে অনলাইন পোর্টাল এ রেজিস্ট্রেশন করতে পারছি না,unavailableServices
+বাবার ভোটার কার্ড না থাকলে আমি ভোটার হতে পারবো,newVoterProcess
+ভোটার আবেদন বাতিল হলে কি কিছু করা যায়,applicationCancelled
+আমার স্মার্ট কার্ড কি প্রিন্ট হয়েছে তা কিভাবে জানতে পারি,smartCardPrintStatus
+আইডি কার্ডের ছবি তুলতে যাবো,photoTakenNoCard
+আমি নতুন ভোটার হয়েছি,newVoterDuplicates
+আমি জার্মানিতে আছি। বাংলাদেশের এনআইডি কার্ড নিবন্ধন কি করা যায়,overseasRegistration
+কিছুটা মিস করেছি,applicationFailures
+আমার জাতীয় পরিচয়পত্র লক হয়ে গেছে,accountLocked
+পুরানো হাতে লেখা জন্ম সনদ অনলাইনে নেই,unavailableServices
+হারানো কার্ড উত্তোলনের পর পুরানো কার্ডটি খুঁজে পেয়েছি,receiptLostSolutions
+কার্ড এর অনলাইন পোর্টালে লগইন করার পদ্ধতি কী,onlineServicesInquiry
+কার্ডে নতুন পেশা আপডেট করার নিয়ম কী,onlineApplicationProcess
+অ্যাপে ওয়ালেট এ ফেস ভেরিফিকেশন শেষ হলেও পরবর্তী ধাপ আসতেছে না।,unavailableServices
+কলটা শেষ করি,applicationFailures
+আমি বহুদিন আগে ভোটার নিবন্ধনের ছবি তুলেছি কিন্তু এখনো কোনো মেসেজ পাইনি। আমি কীভাবে আমার এনআইডি নাম্বার পাবো,photoTakenNoCard
+আমার বাবা বা পিতা বা মাতা বা মা বা স্ত্রী এইরকম ব্যক্তির আইডি সংশোধনের জন্য কোন পদ্ধতি অনুসরণ করতে হবে,nameChangeProcess
+চাকরি পরিবর্তন করেছি,faceVerificationCompleted
+জাতীয় পরিচয়পত্র পোর্টালে ঢুকতে গিয়ে আনএক্সপেক্টেড প্রবলেম দেখা যাচ্ছে,passwordErrors
+স্লিপ ছাড়া এনআইডি কার্ড তোলা যাবে,websiteErrors
+রক্তের গ্রুপ পরিবর্তন করার জন্য আমাকে কোথায় আবেদন করতে হবে,bloodGroupCorrection
+ভোটার হওয়ার সময় প্রদত্ত জন্ম সনদ নম্বর পরিবর্তন করতে চাই।,nameChangeProcess
+একটি ফোন নম্বর দিয়ে কতবার রেজিষ্ট্রেশন করতে পারবো,generalQueries
+মোবাইল নম্বর বা ফোন নম্বর সংযোজন বা সংশোধন করতে,requiredDocuments
+আজকাল ফিঙ্গারপ্রিন্ট আপডেট করেও পেন্ডিং,formPrintIssues
+বাংলাদেশে আমার জাতীয় পরিচয়পত্র নিয়ে বিদেশে থাকতে কি আমি ভোটার হওয়ার জন্য আবার আবেদন করতে পারি,overseasRegistration
+আমি কিউআর দিয়ে কী করব এনআইডি প্রক্রিয়ায়,generalQueries
+ভোটার স্থানান্তরের আবেদন সফল হয়েছে,faceVerificationCompleted
+তথ্য ঠিক থাকলে একাউন্ট লক কেন হচ্ছে,accountLocked
+কার্ড এর আপ্লিকেশন টা ডাউনলোড করতে হবে কিভাবে,mobileAppIssues
+এই বিষয়টা নিয়ে কিছু জানেন,applicationFailures
+অনলাইনে আবেদন করা পর তথ্য ভুল হলে কীভাবে ঠিক করবো,passwordErrors
+বিদেশে যখন ছবি তুলেছিলাম,photoTakenLongAgo
+স্মার্ট কার্ডের প্রিন্টিং স্ট্যাটাস কীভাবে দেখবো,smartCardPrintStatus
+ছবি তোলার সময় যে রশিদ আমি পেয়েছিলাম তা হারিয়ে গেছে জাতীয় পরিচয়পত্র পাবো কেমন করে,receiptLostDuplicates
+আমি ভোটার হওয়ার জন্য হালনাগাদে যোগ দিতে পারিনি। এখন কী করতে হবে,newVoterNoSms
+কার্ড নষ্ট হয়ে গেলে নতুন স্মার্ট কার্ড কি কার্যালয়ে যেতে হবে,receiptLostSolutions
+অনলাইনে কি ঠিকানা বদলের আবেদন জমা দেওয়া যায়,onlineAddressInquiry
+আমি কি স্বাক্ষর বদলাতে পারি,nameChangeProcess
+ভোটার কার্ড বের করতে কত টাকা খরচ হবে,newVoterFees
+ভোটার তালিকা আপডেট এ আবেদন করতে না পারার পর,newVoterNoSms
+আমার ভোটার কার্ড নেই,websiteErrors
+ঠিকানা পরিবর্তনের আবেদন সফল হলে কিভাবে নতুন ঠিকানার কার্ড সংগ্রহ করতে পারি,addressUpdateProblems
+কার্ডের তথ্যের সংশোধনের জন্য কি অনলাইন আবেদন করা যায়,onlineApplicationProcess
+টিন নম্বর বদলাতে কি ডকুমেন্টস প্রয়োজন,requiredDocuments
+আমি অনেক আগে ছবি তুলেছিলাম কিন্তু স্লিপ হারিয়ে ফেলেছি,receiptLostDuplicates
+প্রবাসী এনআইডি নিবন্ধন করলেও আমি কোথা থেকে স্মার্ট কার্ড পাবো,smartCardConversion
+একটা ভুল কারেকশন করার জন্য কয়টা সুযোগ পাওয়া যায়,correctionErrors
+ভোটার এলাকা পরিবর্তনের আবেদন কি অনলাইনে করা যাবে,onlineAddressInquiry
+তথ্য সঠিক দিয়েছি,faceVerificationCompleted
+আমার বর্তমান ঠিকানা সংশোধন করতে কি পদক্ষেপ নেবো,onlineAddressInquiry
+ভোটার হওয়ার জন্য কি কি যোগ্যতা লাগে,newVoterProcess
+ভোটার হওয়ার প্রক্রিয়া দ্রুততর করার কোনো উপায় আছে,newVoterProcess
+ঠিকানা পরিবর্তনের আবেদনে পূর্বের ভোটার এলাকার তথ্য প্রয়োজন,addressUpdateProblems
+আমার কার্ড এ বউ এর নাম এ স্পেলিং মিস্টেক আছে কি করব,matchFoundErrors
+আমি বাংলাদেশে ভোটার হয়েছিলাম,newVoterDuplicates
+আমার আব্বুর এবং আম্মুর অ্যানআইডি কার্ড নাই এখন আমি কিভাবে কি করবো,websiteErrors
+এনআইডি হারিয়ে গেলে নতুন কার্ড তোলার উপায় কী,receiptLostSolutions
+বাংলাদেশের জাতীয় পরিচয়পত্রের জন্য মোবাইল নম্বর যোগ করতে কোন কাগজপত্র প্রয়োজন,requiredDocuments
+স্মার্ট কার্ড বিতরণ হলে কি এসএমএস এর মাধ্যমে জানানো হবে,smartCardPrintStatus
+এনআইডি একাউন্ট করলে যে কিউআর কোড আসে তা কেন দেওয়া হয়,generalQueries
+তালাক হইছে এখন কার্ডে স্বামীর নাম রিমুভ করে দেওয়ার উপায় কি,nameCorrectionDocuments
+ভোটার হওয়ার জন্য কোন ফি আছে কিনা,registrationFees
+রি-ইস্যুর জন্য কত টাকা লাগবে,reissueStatus
+এম্বাসিতে এনআইডি আবেদন করে এডজুডিকেশন পেন্ডিংতে আছে,pendingApplications
+অনলাইন এর একাউন্ট টা লক হয়ে গেছে,accountLocked
+ছবি তোলার সময় আমার প্রাপ্তি রশিদ হারিয়ে গেছে,receiptLostDuplicates
+স্থায়ী ঠিকানা বদলে কত টাকা দিতে হয়,addressChangeFees
+ভোটার তালিকায় নিবন্ধনের জন্য বয়স হতে হয়,ageEligibility
+ছবি তোলার পরে এসেমেস কতদিনে পাবো,photoTakenNoCard
+ভোটার হওয়ার সময় প্রদত্ত স্বামী-স্ত্রীর এনআইডি নম্বর পরিবর্তন করতে চাই।,nameChangeProcess
+আমার বার্থ সার্টিফিকেট আর সার্টিফিকেটে এর তথ্য মেলেনা,matchFoundErrors
+অনলাইনে কার্ড সংশোধন করতে হলে কি করতে হবে,onlineApplicationProcess
+জন্ম নিবন্ধন এবং সনদে পার্থক্য থাকলে নতুন ভোটার নিবন্ধনে কি করতে হবে,differentAddresses
+আমার এনআইডি কার্ড তথ্য ভুল আছে কি করবো,correctionErrors
+জন্ম তারিখ সংশোধনের আবেদন কীভাবে করা যায়,onlineApplicationProcess
+মায়ের এনআইডি কার্ডের নাম্বার কি করে বদলাবো,nameChangeProcess
+বিকাশে টাকা জমা দেয়ার নিয়ম কি,correctionFees
+আমার একটা জরুরি প্রশ্ন আছে,generalQueries
+আপনি কি সাহায্য করতে পারবেন আরও,generalQueries
+স্থায়ী ঠিকানা বদলের ফি কত,addressChangeFees
+আমি কি অনলাইনে ঠিকানা পরিবর্তনের আবেদন করতে পারি,onlineAddressInquiry
+আমার কার্ডের তথ্য ভুল হয়েছে,correctionErrors
+রি-ইস্যু আবেদন করতে কত টাকা খরচ হবে,reissueStatus
+টিন নম্বর নিবন্ধকরণে কি কি ডকুমেন্টস প্রয়োজন,requiredDocuments
+বিদেশে ছবি তুলে জাতীয় পরিচয়পত্রের কাজে দিতে এম্বাসিতে যোগাযোগ করলে জানা গেছে উপজেলা থেকে কোনো তদন্ত নেই। কি করবো,photoTakenNoCard
+আমি নতুন ভোটার,newVoterDuplicates
+সংশোধনের আবেদন করেছি,correctionApplicationStatus
+স্থায়ী ঠিকানায় উপজেলা দেওয়া নাই,upazilaFieldEmpty
+আমি নতুন ভোটার হওয়ার জন্য অনলাইনে অ্যাপ্লিকেশন করার পর কি কি পেপারস জমা দিতে হয়,onlineServicesInquiry
+বৈবাহিক কারণে কি কোনো বিদেশি নাগরিক এনআইডি পেতে পারেন,overseasRegistration
+এন আই ডি ওয়ালেট কোথা থেকে ডাউনলোড করতে পারি,mobileAppIssues
+ছবি তোলার জন্য এসএমএস পেয়েছি,photoTakenNoCard
+আমি মালয়েশিয়ার কনস্যুলেটে বায়োমেট্রিক দিয়েছি,faceVerificationCompleted
+সঠিক তথ্য দিয়েও এনআইডি একাউন্ট লক থাকছে,accountLocked
+বিকাশে কিভাবে মানি জমা করব,correctionFees
+কোন দেশগুলোতে প্রবাসীরা এনআইডি বা ভোটার নিবন্ধন করতে পারে,overseasRegistration
+ইন্টারনেটে আমি কি আমার ঠিকানা বদলের আবেদন করতে পারি,onlineAddressInquiry
+কার্ড হারানো গেলে নতুন কার্ড পেতে কত খরচ লাগবে,receiptLostSolutions
+আমি চব্বিশ ঘন্টার মাঝেই কিভাবে ভোটার হতে পারব,newVoterProcess
+সংশোধেন আবেদন করেছিলাম,correctionApplicationStatus
+এনআইডি কার্ডএ হাসব্যান্ডের নাম সংশোধন করতে কি কি লাগবে,onlineApplicationProcess
+বিশেষ জরুরি রি-ইস্যু আবেদন করেছি,reissueStatus
+জাতীয় পরিচয়পত্রে পোকা ধরেছে,reissueStatus
+আমি আমার স্বামীর নাম এনআইডি কার্ডে সংশোধন বা ঠিক করতে চাই,nameCorrectionDocuments
+পরিচয়পত্রের ঠিকানা পরিবর্তনের জন্য কোন ধরনের ফি আছে,addressChangeFees
+এম্বাসীতে প্রবাসী ভোটার নিবন্ধন আবেদন করার পর কেনো Reject হল,newVoterRejection
+কার্ডের ছবি পরিবর্তন করতে হলে কোন অফিসে যেতে হবে,onlineApplicationProcess
+আমার এনআইডি সংশোধনের এপ্লাই বাতিল করতে হবে কী করবো,applicationCancelled
+বর্তমান ঠিকানার তথ্য সংশোধনের জন্য কি কি কাগজপত্র লাগে,addressUpdateProblems
+ছবি তুলতে যাওয়ার এসএমএস পেয়েছি,photoTakenNoCard
+জাতীয় পরিচয়পত্রের কিছু অংশ খুঁটে গেছে,reissueStatus
+এইটা তো আমার প্রশ্ন না,applicationFailures
+ভোটার স্থানান্তরের আবেদন চলামান রয়েছে,faceVerificationCompleted
+ঠিকানা পরিবর্তনের আবেদন কি অনলাইনে করা যাবে,onlineAddressInquiry
+আমি ভুল করে বেশি শিক্ষাগত যোগ্যতা দেখিয়েছি,correctionErrors
+আমার বর্তমান ঠিকানা হালনাগাদ করতে কি কি কাগজপত্র দিতে হবে,addressUpdateProblems
+স্বামী নাম সংশোধন করার জন্য জাতীয় পরিচয়পত্রে কি কি ডকুমেন্টস দিতে হবে,nameCorrectionDocuments
+এনআইডি কার্ডে পিতার নাম সংশোধনের জন্য কি ডকুমেন্টস লাগবে,nameCorrectionDocuments
+পাসপোর্ট ভেরিফিকেশনে দশ ডিজিট এর এন.অ্যাঁই.ডি. নম্বর কাজ করে না কেন,unavailableServices
+আমার সংশোধন আবেদন কাগজ হারিয়ে গেছে,receiptLostDuplicates
+আমার এনআইডি কার্ডে বাবার নামের বানান ভুল হয়ে গেছে,nameSpellingCorrection
+সংশোধন আবেদন করেছিলাম,correctionApplicationStatus
+আমি নতুন ভোটারের ফর্ম প্রিন্ট করতে গিয়ে ফন্ট ভেঙ্গে যাচ্ছে,formPrintIssues
+আমি প্রথমবার ভোটার হয়েছি কিন্তু আবার বাতিল হয়ে গেল,newVoterRejection
+আমি প্রবাস থেকে এনআইডি কার্ডের জন্য আবেদন করেছি,overseasRegistration
+আমার এনআইডি কার্ডে পিতার নামের বানান ভুল হয়েছে,nameSpellingCorrection
+এই চ্যাটবট কি আমাকে এনআইডি সংশোধন করার তথ্য প্রদান করে,chatbotCapabilities
+আমি জানতে চাই ইন্টারনেটের মাধ্যমে কি কি আবেদন করা যায় না।,onlineServicesInquiry
+কার্ড লক হয়ে গেলে কীভাবে আনলক করা যাবে,accountLocked
+কার্ডের তথ্য পরিবর্তন করার জন্য কি প্রক্রিয়া রয়েছে,onlineApplicationProcess
+অনলাইনে কোন ধরনের পরিষেবা পাওয়া যাবে,onlineServicesInquiry
+আমার মনে পড়ছে না,applicationFailures
+আমার এনআইডি আবেদন দূতাবাসে পেন্ডিং,overseasRegistration
+বর্তমান ঠিকানা পরিবর্তনের আবেদন করলে কতদিনে সম্পন্ন হয়,addressChangeTime
+আমার স্মার্ট কার্ডের বর্তমান অবস্থাটা আমি জানতে চাই।,smartCardConversion
+এনআইডির জন্য ওয়েবপোর্টালে কি কি সেবা দেয়া হয় না,onlineServicesInquiry
+আমি জাতীয় পরিচয়পত্রের স্মার্ট কার্ড বানাতে চাই।,smartCardConversion

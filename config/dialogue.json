@@ -1,0 +1,48 @@
+{
+  "features": {
+    "enable_forms": true,
+    "enable_context_augmentation": true,
+    "enable_summarization": true
+  },
+  "summarization": {
+    "min_length_to_summarize": 100,
+    "max_summary_length": 150,
+    "implementation": "passthrough"
+  },
+  "context_augmentation": {
+    "context_window_turns": 1,
+    "min_confidence": 0.7,
+    "mappings_file": "config/context_mappings.json",
+    "classifier_path": "models/context/fractional_classifier.pkl"
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 0
+  },
+  "session": {
+    "ttl_seconds": 1800,
+    "max_history_turns": 10,
+    "redis_prefix": "dialogue:session:"
+  },
+  "policy": {
+    "confidence_threshold": 0.7,
+    "clarification_threshold": 0.5
+  },
+  "forms": {
+    "max_interruptions": 3,
+    "cluster_to_form_mapping": {
+      "nidStatusCheck": "nid_status_check",
+      "correctionRequest": "nid_correction_request"
+    }
+  },
+  "error_handling": {
+    "max_errors_before_escalation": 3,
+    "enable_graceful_degradation": true
+  },
+  "logging": {
+    "log_level": "INFO",
+    "log_sessions": true,
+    "log_nlp_results": false
+  }
+}

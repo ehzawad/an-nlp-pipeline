@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "detailed": {
+      "format": "%(asctime)s | %(levelname)-8s | [%(name)s:%(lineno)d] | %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    },
+    "simple": {
+      "format": "%(levelname)-8s | %(message)s"
+    }
+  },
+  "handlers": {
+    "console": {
+      "class": "logging.StreamHandler",
+      "level": "INFO",
+      "formatter": "detailed",
+      "stream": "ext://sys.stdout"
+    },
+    "file": {
+      "class": "logging.handlers.RotatingFileHandler",
+      "level": "DEBUG",
+      "formatter": "detailed",
+      "filename": "logs/dialogue_system.log",
+      "maxBytes": 10485760,
+      "backupCount": 5
+    }
+  },
+  "loggers": {
+    "src.application.dialogue_service": {
+      "level": "INFO",
+      "handlers": ["console", "file"],
+      "propagate": false
+    },
+    "src.application.policy": {
+      "level": "INFO",
+      "handlers": ["console", "file"],
+      "propagate": false
+    },
+    "src.application.nlp_service": {
+      "level": "INFO",
+      "handlers": ["console", "file"],
+      "propagate": false
+    },
+    "src.application.forms": {
+      "level": "INFO",
+      "handlers": ["console", "file"],
+      "propagate": false
+    },
+    "src.shared.tenant_context": {
+      "level": "INFO",
+      "handlers": ["console", "file"],
+      "propagate": false
+    }
+  },
+  "root": {
+    "level": "INFO",
+    "handlers": ["console", "file"]
+  }
+}

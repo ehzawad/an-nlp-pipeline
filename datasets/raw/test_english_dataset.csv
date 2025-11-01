@@ -1,0 +1,58 @@
+question,cluster,tag
+How do I reset my password?,account_management,password_reset
+I forgot my password,account_management,password_reset
+Can't log into my account,account_management,account_locked
+My account is locked,account_management,account_locked
+What are your business hours?,customer_service,business_hours
+When are you open?,customer_service,business_hours
+How can I contact support?,customer_service,contact_support
+What's the support email?,customer_service,contact_support
+How do I reach customer service?,customer_service,contact_support
+What is my current balance?,billing,balance_inquiry
+Show me my account balance,billing,balance_inquiry
+How much do I owe?,billing,balance_inquiry
+When is my payment due?,billing,payment_due
+What's the due date for my bill?,billing,payment_due
+How do I upgrade my plan?,product_info,plan_upgrade
+I want to change my subscription,product_info,plan_upgrade
+What features are included?,product_info,features
+Tell me about premium features,product_info,features
+What's in the premium plan?,product_info,features
+How do I reset my password for email?,account_management,password_reset
+Password reset not working,account_management,password_reset
+My login credentials aren't working,account_management,account_locked
+Account locked after failed attempts,account_management,account_locked
+What time do you close?,customer_service,business_hours
+Are you available on weekends?,customer_service,business_hours
+Email address for support team,customer_service,contact_support
+Phone number for help desk,customer_service,contact_support
+Live chat support available?,customer_service,contact_support
+Check my outstanding balance,billing,balance_inquiry
+Total amount due on my account,billing,balance_inquiry
+View my account balance,billing,balance_inquiry
+Payment deadline this month,billing,payment_due
+When should I pay my bill?,billing,payment_due
+Upgrade to business plan,product_info,plan_upgrade
+Switch from basic to premium,product_info,plan_upgrade
+What comes with the pro version?,product_info,features
+List of premium features,product_info,features
+Feature comparison between plans,product_info,features
+Reset password link not received,account_management,password_reset
+Change my account password,account_management,password_reset
+Unlock my locked account,account_management,account_locked
+Account disabled after login attempts,account_management,account_locked
+Office hours for customer service,customer_service,business_hours
+What days are you open?,customer_service,business_hours
+How to contact your team?,customer_service,contact_support
+Best way to reach support?,customer_service,contact_support
+Support ticket submission,customer_service,contact_support
+What's my current bill amount?,billing,balance_inquiry
+Amount owed on my account,billing,balance_inquiry
+Outstanding charges on account,billing,balance_inquiry
+Bill payment due date,billing,payment_due
+Last date to pay without penalty,billing,payment_due
+How to upgrade subscription tier?,product_info,plan_upgrade
+Move to higher plan,product_info,plan_upgrade
+Premium plan benefits,product_info,features
+Advanced features available,product_info,features
+What do I get with premium?,product_info,features

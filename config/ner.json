@@ -1,0 +1,91 @@
+{
+  "enabled": true,
+  "model": {
+    "name": "xlm-roberta-large-finetuned-conll03-english",
+    "device": "cpu",
+    "cache_dir": "./models/ner/ner_cache",
+    "confidence_threshold": 0.7
+  },
+  "extraction": {
+    "enable_regex_fallback": true,
+    "enable_bert_ner": true
+  },
+  "entity_types": {
+    "structured_ids": {
+      "nid_number": {
+        "pattern": "\\b\\d{17}\\b",
+        "description": "Bangladesh National ID (17 digits)"
+      },
+      "account_number": {
+        "pattern": "\\b\\d{10,16}\\b",
+        "description": "Bank account number (10-16 digits)"
+      },
+      "phone": {
+        "pattern": "\\b0?1[3-9]\\d{8}\\b",
+        "description": "Bangladesh mobile number"
+      }
+    },
+    "bert_entities": {
+      "person_name": ["PER", "PERSON"],
+      "location": ["LOC", "LOCATION", "GPE"],
+      "date": ["DATE"],
+      "organization": ["ORG", "ORGANIZATION"]
+    }
+  },
+  "slot_mapping": {
+    "person_name": [
+      "full_name",
+      "name",
+      "customer_name",
+      "first_name",
+      "last_name",
+      "passenger_name",
+      "guest_name"
+    ],
+    "location": [
+      "city",
+      "address",
+      "district",
+      "location",
+      "destination",
+      "origin",
+      "delivery_address"
+    ],
+    "date": [
+      "date_of_birth",
+      "dob",
+      "check_in_date",
+      "check_out_date",
+      "appointment_date",
+      "booking_date",
+      "travel_date",
+      "date"
+    ],
+    "nid_number": [
+      "nid_number",
+      "nid",
+      "national_id"
+    ],
+    "account_number": [
+      "account_number",
+      "account_id",
+      "account"
+    ],
+    "phone": [
+      "phone",
+      "phone_number",
+      "mobile",
+      "mobile_number",
+      "contact_number"
+    ]
+  },
+  "confirmation": {
+    "always_confirm": true,
+    "confirmation_template": "I found the following information:\n{entities_summary}\nIs this correct?",
+    "auto_fill_on_confirm": true
+  },
+  "priority": {
+    "regex_over_bert": true,
+    "structured_ids_first": true
+  }
+}

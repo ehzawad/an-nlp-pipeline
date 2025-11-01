@@ -1,0 +1,1 @@
+{"event_id": "92876aac-a022-4a40-bef3-73a6d654743e", "event_type": "turn.started", "timestamp": "2025-10-31T11:36:20.880570", "aggregate_id": "session_1", "tenant_id": "test_tenant_1", "user_id": "user_1", "data": {"query": "Test", "query_length": 4}, "correlation_id": "corr_456", "causation_id": null}

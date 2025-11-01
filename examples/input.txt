@@ -1,0 +1,32 @@
+# Simulated Conversation Test
+# Each line is a user query, blank lines separate conversation turns
+
+# Test 1: Simple FAQ query about NID status
+আমার NID এর স্ট্যাটাস কি?
+
+# Test 2: Name correction query
+আমি কিভাবে নাম সংশোধন করব?
+
+# Test 3: Address change fees
+ঠিকানা পরিবর্তন করতে কত টাকা লাগে?
+
+# Test 4: New voter registration process
+নতুন ভোটার হতে কি করতে হবে?
+
+# Test 5: Online application process
+অনলাইনে আবেদন করার নিয়ম কি?
+
+# Test 6: Required documents query
+কি কি কাগজপত্র লাগবে?
+
+# Test 7: Form trigger - NID status check
+আমার এনআইডি স্ট্যাটাস চেক করতে চাই
+
+# Test 8: Correction form trigger
+আমার নাম ভুল আছে সংশোধন করতে চাই
+
+# Test 9: Smart card conversion
+স্মার্ট কার্ডে রূপান্তর করতে চাই
+
+# Test 10: General greeting/capabilities
+তুমি কি কি করতে পারো?

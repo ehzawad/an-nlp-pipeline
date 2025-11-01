@@ -1,0 +1,173 @@
+# Comprehensive Test Inputs for Full Pipeline Testing
+# ==================================================
+# Tests ALL conversation types: FAQ, Forms, Multi-turn, Fractional, Interruptions, NER
+# Each section tests specific components
+
+# ==================================================
+# SECTION 1: Simple FAQ Queries (Single-turn, No State)
+# ==================================================
+# Tests: NLP Service, Policy Engine (FAQ routing)
+
+আমার NID এর স্ট্যাটাস কি?
+নাম সংশোধন করতে কত টাকা লাগে?
+ঠিকানা পরিবর্তন করার নিয়ম কি?
+নতুন ভোটার হতে কি করতে হবে?
+অনলাইনে আবেদন করার প্রক্রিয়া কি?
+কি কি কাগজপত্র প্রয়োজন?
+স্মার্ট কার্ডে রূপান্তর করতে চাই
+জন্ম তারিখ ভুল হলে কি করব?
+ছবি পরিবর্তন করা যাবে কি?
+NID কার্ড ডেলিভারি কতদিনে হয়?
+
+# ==================================================
+# SECTION 2: Form Trigger Queries (Multi-turn Forms)
+# ==================================================
+# Tests: Forms System, Session Management, Multi-turn Slot Collection
+
+# Hotel Booking Form (4 slots: city, check_in_date, guests, full_name)
+I want to book a hotel room
+আমি একটা হোটেল বুক করতে চাই
+
+# NID Status Check Form (2 slots: nid_number, date_of_birth)
+আমার NID স্ট্যাটাস চেক করতে চাই
+আমার এনআইডি এর অবস্থা জানতে চাই
+
+# Correction Request Form (3 slots: nid_number, correction_type, correction_details)
+আমার নাম ভুল আছে সংশোধন করতে চাই
+আমার ঠিকানা ঠিক করতে হবে
+
+# Bank Account Verification Form (3 slots: nid_number, bank_account_number, bank_name)
+আমার ব্যাংক একাউন্ট ভেরিফাই করতে চাই
+
+# ==================================================
+# SECTION 3: Multi-turn Conversation (History Tracking)
+# ==================================================
+# Tests: Session Management, Conversation History
+
+আমার NID এর স্ট্যাটাস কি?
+নাম সংশোধন করতে কত টাকা লাগে?
+কতদিনে সংশোধন হবে?
+অনলাইনে কিভাবে আবেদন করব?
+কি কি কাগজপত্র লাগবে?
+
+# ==================================================
+# SECTION 4: Fractional/Context-Dependent Queries
+# ==================================================
+# Tests: Context Augmentation, Fractional Query Detection
+
+আমার NID এর স্ট্যাটাস কি?
+কি?
+আর কি জানতে হবে?
+কেন?
+কিভাবে?
+
+# ==================================================
+# SECTION 5: Form Interruptions (FAQ during Form Flow)
+# ==================================================
+# Tests: Form Interruption Handling, Session State Management
+
+# Start NID status check form
+আমার NID স্ট্যাটাস চেক করতে চাই
+# Interrupt with FAQ
+কি কি কাগজপত্র প্রয়োজন?
+# Resume form
+1234567890123456
+15-05-1990
+
+# ==================================================
+# SECTION 6: Entity-Rich Queries (NER Extraction)
+# ==================================================
+# Tests: NER Extraction (NID, phone, email, dates)
+
+আমার NID নাম্বার 1234567890123456
+আমার ফোন নাম্বার 01712345678
+আমার ইমেইল test@example.com
+আমার জন্ম তারিখ 15-05-1990
+আমার NID 1234567890123456 এবং ফোন 01712345678
+
+# ==================================================
+# SECTION 7: Policy Routing Tests
+# ==================================================
+# Tests: Policy Engine (FAQ/Clarify/Escalate routing)
+
+# High confidence → FAQ
+আমার NID এর স্ট্যাটাস কি?
+
+# Medium confidence → Clarify
+আমি জানতে চাই
+
+# Low confidence → Fallback
+???
+asdfasdf
+blahblahblah
+
+# ==================================================
+# SECTION 8: Hook Execution Tests
+# ==================================================
+# Tests: Hooks System (9 Hook Points)
+
+# Simple query to trigger all hooks
+তুমি কি কি করতে পারো?
+
+# ==================================================
+# SECTION 9: Session Persistence Tests
+# ==================================================
+# Tests: Session State Persistence, Event Sourcing
+
+# Multiple queries in same session
+আমার NID এর স্ট্যাটাস কি?
+নাম সংশোধন করতে কত টাকা লাগে?
+অনলাইনে আবেদন করার নিয়ম কি?
+
+# ==================================================
+# SECTION 10: Edge Cases & Error Handling
+# ==================================================
+# Tests: Error Handling, Fallback Mechanisms
+
+# Empty query
+
+# Very long query (> 1000 chars would be truncated)
+আমার NID এর স্ট্যাটাস কি এবং আমি কিভাবে নাম সংশোধন করব এবং ঠিকানা পরিবর্তন করতে কত টাকা লাগে
+
+# Special characters
+@#$%^&*()
+এনআইডি??????
+
+# Mixed language
+What is my NID status আমার NID এর স্ট্যাটাস
+
+# ==================================================
+# SECTION 11: Complete Form Flows (End-to-End)
+# ==================================================
+
+# Complete Hotel Booking Flow
+I want to book a hotel
+Dhaka
+25-12-2024
+2
+John Doe
+
+# Complete NID Status Check Flow
+আমার NID স্ট্যাটাস চেক করতে চাই
+1234567890123456
+15-05-1990
+
+# Complete Correction Request Flow
+আমার নাম ভুল আছে সংশোধন করতে চাই
+1234567890123456
+Name
+My name should be Mohammad Rahman
+
+# ==================================================
+# SECTION 12: Greeting & Capabilities
+# ==================================================
+# Tests: Chatbot Capabilities Detection
+
+হ্যালো
+তুমি কি কি করতে পারো?
+তোমার নাম কি?
+তুমি কি সাহায্য করতে পারবে?
+
+# ==================================================
+# Total: ~60 diverse test queries covering all scenarios
+# ==================================================

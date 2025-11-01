@@ -1,0 +1,21 @@
+{
+  "project_name": "nid-nlp-pipeline",
+  "python_version": "3.13",
+  "paths": {
+    "datasets_raw": "./datasets/raw",
+    "datasets_processed": "./datasets/processed",
+    "models": "./models",
+    "logs": "./logs"
+  },
+  "models": {
+    "e5": {
+      "name": "intfloat/multilingual-e5-large-instruct",
+      "device": "cpu",
+      "cache_dir": "./models/embeddings/e5_cache"
+    }
+  },
+  "logging": {
+    "level": "DEBUG",
+    "file": "./logs/app.log"
+  }
+}

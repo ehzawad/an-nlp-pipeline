@@ -1,0 +1,60 @@
+.DS_Store
+.claude
+CLAUDE.md
+AGENTS.md
+
+# Python
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Models and data (large files)
+models/classification/*.pkl
+models/classification/embeddings_pointer.json
+models/classification/validation_metrics.json
+models/context/*.pkl
+models/context/*_metadata.json
+models/semantic_search/faiss_indices/
+models/semantic_search/embeddings_pointer.json
+models/semantic_search/cluster_metadata.json
+models/embeddings/
+src/models/classification/*.pkl
+src/models/classification/embeddings_pointer.json
+src/models/classification/validation_metrics.json
+src/models/context/*.pkl
+src/models/context/*_metadata.json
+src/models/semantic_search/faiss_indices/
+src/models/semantic_search/embeddings_pointer.json
+src/models/semantic_search/cluster_metadata.json
+src/models/embeddings/e5_cache/
+
+# Logs
+logs/
+*.log
+
+# Cache
+cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+*.coverage
+.coverage

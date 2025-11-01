@@ -1,0 +1,24 @@
+{
+  "model_name": "e5",
+  "prompt_template": "task: semantic similarity | query: {text}",
+  "auto_build_on_missing": true,
+  "artifacts": {
+    "model_subdir": "semantic_search",
+    "indices_subdir": "faiss_indices",
+    "cluster_file": "questions_with_clusters.csv",
+    "tags_file": "questions_with_tags.csv"
+  },
+  "faiss": {
+    "index_type": "IndexFlatIP",
+    "build_merged_index": true,
+    "normalize_embeddings": true
+  },
+  "search": {
+    "default_top_k": 5,
+    "distance_metric": "cosine"
+  },
+  "indexing": {
+    "batch_size": 32,
+    "show_progress": true
+  }
+}

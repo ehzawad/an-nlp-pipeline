@@ -1,0 +1,1 @@
+{"event_id": "626f5d11-ef7e-4630-86da-167ef6edc75f", "event_type": "turn.started", "timestamp": "2025-10-31T11:36:20.881986", "aggregate_id": "integration_test:23add39e7c7c3551:1761888980", "tenant_id": "integration_test", "user_id": "test_user", "data": {"query": "Integration test query", "query_length": 22}, "correlation_id": "int_test_123", "causation_id": null}

@@ -1,0 +1,39 @@
+{
+  "model_name": "e5",
+  "prompt_template": "task: classification | query: {text}",
+  "auto_train_on_missing": true,
+  "artifacts": {
+    "model_subdir": "classification",
+    "train_file": "classification/train.csv",
+    "val_file": "classification/val.csv"
+  },
+  "num_classes": 48,
+  "merge_small_clusters": false,
+  "small_cluster_threshold": 30,
+  "data_split": {
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "stratify": true,
+    "random_state": 42
+  },
+  "model": {
+    "type": "logistic_regression",
+    "C": 0.25,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "hyperparameter_search": {
+    "enabled": true,
+    "C_values": [0.25, 0.5, 1.0, 2.0, 4.0, 8.0],
+    "cv_folds": 5,
+    "scoring": "balanced_accuracy"
+  },
+  "calibration": {
+    "enabled": true,
+    "method": "sigmoid",
+    "cv": 3
+  }
+}
