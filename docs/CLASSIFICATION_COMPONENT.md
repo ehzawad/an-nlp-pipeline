@@ -82,30 +82,31 @@ Contains all classifier configuration including:
 ```json
 {
   "model": {
+    "type": "logistic_regression",
+    "C": 0.25,
     "solver": "lbfgs",
     "max_iter": 2000,
     "class_weight": "balanced",
-    "C": 1.0,
     "random_state": 42
   },
   "hyperparameter_search": {
-    "enabled": false,
-    "C_values": [0.25, 0.5, 1.0, 2.0],
+    "enabled": true,
+    "C_values": [0.25, 0.5, 1.0, 2.0, 4.0, 8.0],
     "cv_folds": 5,
     "scoring": "balanced_accuracy"
   },
   "calibration": {
-    "enabled": false,
+    "enabled": true,
     "method": "sigmoid",
     "cv": 3
   },
-  "prompt_template": "query: {text}",
+  "prompt_template": "task: classification | query: {text}",
   "artifacts": {
-    "train_file": "train_split.csv",
-    "val_file": "val_split.csv",
-    "test_file": "test_split.csv",
-    "model_subdir": "classification"
-  }
+    "model_subdir": "classification",
+    "train_file": "classification/train.csv",
+    "val_file": "classification/val.csv"
+  },
+  "num_classes": 48
 }
 ```
 
@@ -135,9 +136,9 @@ Prepares stratified train/validation/test splits from raw data.
 **Location:** `datasets/processed/classification/`
 
 After running `prepare_datasets.py`:
-- `train_split.csv` - Training set
-- `val_split.csv` - Validation set
-- `test_split.csv` - Test set
+- `train.csv` - Training set
+- `val.csv` - Validation set
+- `test.csv` - Test set
 
 All splits are stratified to maintain class distribution.
 
