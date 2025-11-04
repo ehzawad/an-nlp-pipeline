@@ -81,6 +81,24 @@ Contains all classifier configuration including:
 
 ```json
 {
+  "model_name": "e5",
+  "prompt_template": "task: classification | query: {text}",
+  "auto_train_on_missing": true,
+  "artifacts": {
+    "model_subdir": "classification",
+    "train_file": "classification/train.csv",
+    "val_file": "classification/val.csv"
+  },
+  "num_classes": 48,
+  "merge_small_clusters": false,
+  "small_cluster_threshold": 30,
+  "data_split": {
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "stratify": true,
+    "random_state": 42
+  },
   "model": {
     "type": "logistic_regression",
     "C": 0.25,
@@ -99,14 +117,7 @@ Contains all classifier configuration including:
     "enabled": true,
     "method": "sigmoid",
     "cv": 3
-  },
-  "prompt_template": "task: classification | query: {text}",
-  "artifacts": {
-    "model_subdir": "classification",
-    "train_file": "classification/train.csv",
-    "val_file": "classification/val.csv"
-  },
-  "num_classes": 48
+  }
 }
 ```
 
@@ -148,7 +159,7 @@ All splits are stratified to maintain class distribution.
 
 **Location:** `models/classification/`
 
-Contains the following after training:
+Contains the following files after running `train_classifier.py`:
 
 1. **model.pkl** - Scikit-learn LogisticRegression classifier
    - 48 output classes (support clusters)
@@ -159,10 +170,12 @@ Contains the following after training:
    - Maps cluster names ↔ numeric indices
    - Used for encoding/decoding predictions
 
-3. **validation_metrics.json** - Performance metrics
-   - Balanced accuracy (~0.91 for current model)
+3. **validation_metrics.json** - Performance metrics (created by training script)
+   - Balanced accuracy (target ~0.91)
    - Per-class precision/recall/f1-scores
    - Classification report
+
+**Note:** The model artifacts are created by running `pipelines/training/train_classifier.py`. If they don't exist, you need to train the classifier first.
 
 ---
 
@@ -290,12 +303,14 @@ pytest tests/integration/  # For end-to-end pipeline tests
 
 ## Performance Metrics
 
-Current model performance (from `models/classification/validation_metrics.json`):
+Target model performance (after training):
 
-- **Balanced Accuracy:** ~0.91
+- **Balanced Accuracy:** ~0.91 (target)
 - **Architecture:** Logistic Regression over E5-large embeddings
 - **Classes:** 48 support clusters
 - **Training Data:** ~3,200 Bengali dialogue utterances
+
+**Note:** Actual performance metrics are stored in `models/classification/validation_metrics.json` after running the training script.
 
 ---
 
