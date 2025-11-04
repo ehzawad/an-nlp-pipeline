@@ -2,12 +2,77 @@
 
 Production-ready Bengali dialogue system for National ID (NID) customer support. The project combines intent classification, semantic search, entity extraction, multi-turn forms, and event-sourced session management into a single FastAPI service with rich observability and multi-tenant isolation.
 
+> **NEW**: The project now features a **composeable architecture** where each NLP component can be run independently, tested in isolation, and composed together flexibly. See [Components Architecture](docs/COMPONENTS_ARCHITECTURE.md) for details.
+
 > Tip: The architecture deep dive lives in `docs/SYSTEM_ARCHITECTURE.txt` (ASCII diagram). This README summarises the pieces you will actually touch day-to-day.
+
+---
+
+## NEW: Composeable Components Architecture
+
+The project now includes **standalone, composeable NLP components** that can be:
+- **Run independently** with their own CLI
+- **Composed together** in flexible pipelines
+- **Tested in isolation**
+- **Configured independently**
+
+### Quick Start with Components
+
+```bash
+# Run NER component
+python cli.py ner --text "আমার নাম জন ডো এবং NID 12345678901234567"
+
+# Run Classification component
+python cli.py classification --text "আমার NID স্ট্যাটাস কি?"
+
+# Run Semantic Search component
+python cli.py search --text "NID কিভাবে আবেদন করবো?"
+
+# Run LLM component (local model)
+python cli.py llm --text "Summarize this text" --backend local
+
+# Run Dialogue Manager (interactive)
+python cli.py dialogue --interactive
+```
+
+### Available Components
+
+| Component | Purpose | CLI Command |
+| --- | --- | --- |
+| **NER** | Entity extraction (hybrid transformer + regex) | `python cli.py ner` |
+| **Classification** | Intent classification (E5 + LogReg) | `python cli.py classification` |
+| **Semantic Search** | FAISS-based similarity search | `python cli.py search` |
+| **LLM** | Low-cost text generation (local/API) | `python cli.py llm` |
+| **Dialogue Manager** | Multi-turn conversation orchestrator | `python cli.py dialogue` |
+
+### Example: Component Composition
+
+```python
+from src.components.ner import NERComponent, NERInput, NERConfig
+from src.components.classification import ClassificationComponent, ClassificationInput, ClassificationConfig
+from src.components.dialogue import DialogueManager, DialogueInput, DialogueConfig
+
+# Use individual components
+ner = NERComponent(NERConfig(device="cpu"))
+await ner.initialize()
+result = await ner.process(NERInput(text="আমার NID 12345678901234567"))
+
+# Or use Dialogue Manager (orchestrates all components)
+dm = DialogueManager(DialogueConfig(enable_ner=True, enable_classification=True))
+await dm.initialize()
+result = await dm.process(DialogueInput(text="আমার NID স্ট্যাটাস কি?", session_id="user123"))
+```
+
+**Full Documentation**: [Components Architecture Guide](docs/COMPONENTS_ARCHITECTURE.md)
+**Demo**: Run `python examples/composeable_components_demo.py`
 
 ---
 
 ## Highlights
 
+- **NEW: Composeable Components** – Each NLP component (NER, classification, search, LLM) can be run independently or composed together.
+- **NEW: Low-Cost LLM** – Abstractive text generation with local models (Flan-T5) or APIs (OpenAI, Anthropic).
+- **NEW: Dialogue Manager** – Central orchestrator with text fragmentation, session tracking, and action invocation.
 - **End-to-end pipeline** – 14-stage dialogue flow with hooks, forms, policy routing, summarisation stub, and persistence.
 - **Hybrid NLP stack** – Logistic regression classifier over multilingual-e5 embeddings, FAISS semantic search, fractional query detection, and regex + transformer-backed NER.
 - **Event sourcing** – Every turn appended to per-tenant JSONL event logs under `event_store/`, plus rotating dialogue logs in `logs/`.
@@ -20,6 +85,9 @@ Production-ready Bengali dialogue system for National ID (NID) customer support.
 
 | Path | Purpose |
 | --- | --- |
+| **`src/components/`** | **NEW: Standalone, composeable NLP components (NER, classification, search, LLM, dialogue manager).** |
+| **`cli.py`** | **NEW: Unified CLI entry point for running any component independently.** |
+| **`docs/COMPONENTS_ARCHITECTURE.md`** | **NEW: Complete guide to composeable components architecture.** |
 | `src/interfaces/api/app.py` | FastAPI application: startup lifecycle, REST + WebSocket endpoints, CORS, tracing, and dialogue pipeline wiring. |
 | `src/application/` | Core application services (dialogue pipeline, policies, forms, NLP orchestration, session store, hooks, summarisation). |
 | `src/shared/tenant_context.py` | Tenant factory/context with lazy initialisation of models, caches, event store, form registry, etc. |
@@ -33,6 +101,7 @@ Production-ready Bengali dialogue system for National ID (NID) customer support.
 | `tests/` | Unit + integration tests with pytest-asyncio coverage. |
 | `docs/SYSTEM_ARCHITECTURE.txt` | Large ASCII architecture write-up (client ➜ gateway ➜ dialogue pipeline). |
 | `examples/` | CLI demos, scripted conversations, and proof-of-concept credit-card service form. |
+| `examples/composeable_components_demo.py` | **NEW: Demo showing independent components and composition.** |
 
 ---
 
