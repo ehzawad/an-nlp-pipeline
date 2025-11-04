@@ -216,9 +216,30 @@ Classification operations are traced with:
 ```python
 from src.application.models import ClassifierModel, E5EmbeddingModel, ModelConfig
 
-# Initialize
-embedding_model = E5EmbeddingModel(config)
-classifier = ClassifierModel(config, embedding_model)
+# Initialize embedding model with ModelConfig
+embedding_config = ModelConfig(
+    name="e5_embeddings",
+    type="embeddings",
+    implementation="E5EmbeddingModel",
+    config={
+        "name": "intfloat/multilingual-e5-large-instruct",
+        "cache_dir": "./models/embeddings/e5_cache",
+        "device": "cpu"
+    }
+)
+embedding_model = E5EmbeddingModel(embedding_config)
+
+# Initialize classifier with ModelConfig
+classifier_config = ModelConfig(
+    name="classifier",
+    type="classifier",
+    implementation="ClassifierModel",
+    config={
+        "model_path": "models/classification/model.pkl",
+        "label_encoder_path": "models/classification/label_encoder.pkl"
+    }
+)
+classifier = ClassifierModel(classifier_config, embedding_model)
 
 # Predict
 results = classifier.predict("আমার NID কার্ড হারিয়ে গেছে", top_k=3)
@@ -230,16 +251,21 @@ results = classifier.predict("আমার NID কার্ড হারিয�
 # ]
 ```
 
+**Note:** In practice, models are typically initialized via `TenantContext` which handles configuration loading automatically.
+
 ### Via NLP Pipeline
 
 ```python
 from src.application.nlp_service import AsyncNLPPipeline
 
+# Assume classifier and searcher are already initialized
+# (typically through TenantContext)
+
 # Initialize pipeline
 pipeline = AsyncNLPPipeline(classifier, searcher, confidence_threshold=0.6)
 
-# Process query
-result = await pipeline.run("আমার NID কার্ড হারিয়ে গেছে", top_k=5)
+# Process query (async)
+result = await pipeline.run("আমার NID কার্ড হারিয়ে গেছে", top_k=5, tenant_id="default")
 
 # result.classification contains top-3 predictions
 # result.search_results contains semantic search results
