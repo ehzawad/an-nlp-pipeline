@@ -64,7 +64,7 @@ The pipeline emits domain events (`nlp.completed`, form slot updates, etc.) stor
 | Component | Location | Notes |
 | --- | --- | --- |
 | **Embedding model** | `models/embeddings/e5_cache/` | Multilingual E5 large instruct (SentenceTransformer). Loaded lazily per tenant. |
-| **Intent classifier** | `models/classification/model.pkl` | Scikit-learn logistic regression (48 clusters) trained via `pipelines/training/train_classifier.py`. Validation metrics stored in `validation_metrics.json` (≈0.91 balanced accuracy). |
+| **Intent classifier** | `models/classification/model.pkl` | Scikit-learn logistic regression (48 clusters) trained via `pipelines/training/train_classifier.py`. Validation metrics stored in `validation_metrics.json` (≈0.91 balanced accuracy). See [Classification Component Guide](docs/CLASSIFICATION_COMPONENT.md) for details. |
 | **Semantic search** | `models/semantic_search/` | FAISS `IndexFlatIP` per cluster + merged index; metadata lists question-tag mappings for 3.2k Bengali FAQs. Built with `pipelines/training/build_indices.py`. |
 | **Fractional query detector** | `models/context/fractional_classifier.pkl` | Detects context-dependent queries, trained on `datasets/raw/fractional_queries.txt` via `train_fractional_classifier.py`. |
 | **NER** | Runtime | `NERExtractor` mixes regex patterns (`entity_patterns.py`) and optional transformer (xlm-roberta) with slot mapping. |
@@ -222,6 +222,7 @@ Tests use extensive fakes/mocks to isolate components (e.g., scripted NLP result
 ## Additional References
 
 - **Architecture** – `docs/SYSTEM_ARCHITECTURE.txt`
+- **Classification Component** – `docs/CLASSIFICATION_COMPONENT.md`
 - **Log Samples** – `logs/dialogue_system.log`, `logs/app_YYYY-MM-DD.log`
 - **Event Samples** – `event_store/default/default/*.jsonl`
 - **Validation Metrics** – `models/classification/validation_metrics.json`
