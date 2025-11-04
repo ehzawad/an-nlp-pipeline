@@ -18,34 +18,81 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 
+def build_component_argv(args):
+    """Build argv for component from parsed args"""
+    argv = []
+    for key, value in vars(args).items():
+        if key == 'component':
+            continue
+        if value is None or value is False:
+            continue
+        if value is True:
+            argv.append(f"--{key.replace('_', '-')}")
+        else:
+            argv.append(f"--{key.replace('_', '-')}")
+            argv.append(str(value))
+    return argv
+
+
 async def run_ner(args):
     """Run NER component"""
+    # Rebuild sys.argv for component
+    original_argv = sys.argv
+    sys.argv = ['ner'] + build_component_argv(args)
+
     from src.components.ner.component import main
-    await main()
+    try:
+        await main()
+    finally:
+        sys.argv = original_argv
 
 
 async def run_classification(args):
     """Run Classification component"""
+    original_argv = sys.argv
+    sys.argv = ['classification'] + build_component_argv(args)
+
     from src.components.classification.component import main
-    await main()
+    try:
+        await main()
+    finally:
+        sys.argv = original_argv
 
 
 async def run_search(args):
     """Run Semantic Search component"""
+    original_argv = sys.argv
+    sys.argv = ['search'] + build_component_argv(args)
+
     from src.components.semantic_search.component import main
-    await main()
+    try:
+        await main()
+    finally:
+        sys.argv = original_argv
 
 
 async def run_llm(args):
     """Run LLM component"""
+    original_argv = sys.argv
+    sys.argv = ['llm'] + build_component_argv(args)
+
     from src.components.llm.component import main
-    await main()
+    try:
+        await main()
+    finally:
+        sys.argv = original_argv
 
 
 async def run_dialogue(args):
     """Run Dialogue Manager"""
+    original_argv = sys.argv
+    sys.argv = ['dialogue'] + build_component_argv(args)
+
     from src.components.dialogue.manager import main
-    await main()
+    try:
+        await main()
+    finally:
+        sys.argv = original_argv
 
 
 def main():
