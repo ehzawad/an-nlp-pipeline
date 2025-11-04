@@ -1,0 +1,169 @@
+# Credit Card Balance Inquiry - Sample Conversation
+
+## Conversation 1: Basic Balance Check
+
+User: Hello, I want to check my credit card balance
+Bot: I can help you with that. For security purposes, may I have your full name as it appears on the card?
+
+User: Md. Arif Rahman
+Bot: Thank you, Mr. Rahman. Please provide the last four digits of your credit card:
+
+User: 2749
+Bot: Perfect. I'm sending a one-time password to your registered mobile number. Please provide the 6-digit OTP when you receive it:
+
+User: 482119
+Bot: Thank you for verifying. I have your Horizon Platinum card ending in 2749. Let me pull up your balance information...
+
+Bot: Your current balance is BDT 57,840.23. Your available credit is BDT 142,159.77 out of your total limit of BDT 200,000.
+
+User: What's my payment due date?
+Bot: Your payment is due on November 9th, 2025. The minimum amount due is BDT 4,629.00.
+
+User: When was my last payment?
+Bot: Your last payment of BDT 20,000.00 was received on October 12th, 2025. Thank you for your payment!
+
+User: The balance looks higher than expected. Can you show me recent transactions?
+Bot: Of course. Here are your recent transactions:
+• October 25: ElectroMart Dhanmondi - BDT 18,900.00
+• October 27: AirFly Tickets - BDT 7,500.00
+• October 28: Restaurant Dining - BDT 1,200.00
+• October 29: Fuel Station - BDT 650.00
+
+User: Ah yes, I bought a TV. Can you email me my statement?
+Bot: I can email your latest statement. Should I send it to your registered email address?
+
+User: Yes please
+Bot: Done! I've sent your October statement to your registered email. Please check your inbox. Is there anything else I can help you with?
+
+User: No, that's all. Thank you!
+Bot: You're welcome! Have a great day!
+
+═══════════════════════════════════════════════════════════════════
+
+## Conversation 2: Payment Setup
+
+User: Hi, I want to set up automatic payments for my credit card
+Bot: I can help you set up automatic payments. First, for security verification, may I have your full name?
+
+User: Sarah Ahmed
+Bot: Thank you. Please provide the last four digits of your card:
+
+User: 5832
+Bot: I'm sending an OTP to your registered mobile. Please provide the 6-digit code:
+
+User: 739201
+Bot: Verified! I see your Horizon Gold card ending in 5832. Now, for automatic payments, would you like to pay:
+1. Minimum due amount
+2. Total balance
+3. A fixed amount each month
+
+User: Option 2, total balance
+Bot: Great choice! This will help you avoid interest charges. Which account should we debit the payment from?
+
+User: My Horizon Savings account
+Bot: Perfect. I'm setting up auto-debit from your Horizon Savings account for the total balance amount. The first automatic payment will be processed on November 15th, 2025.
+
+Bot: Just to confirm:
+• Card: **** **** **** 5832
+• Payment type: Total balance
+• Source: Horizon Savings
+• First payment: November 15, 2025
+
+Is this correct?
+
+User: Yes, that's correct
+Bot: Excellent! Your automatic payment is now active. You'll receive a confirmation SMS shortly. Anything else I can help with?
+
+User: No, thank you
+Bot: You're welcome! Your auto-payment will help you never miss a due date. Have a wonderful day!
+
+═══════════════════════════════════════════════════════════════════
+
+## Conversation 3: Dispute Transaction
+
+User: I need to report a problem with a transaction
+Bot: I'm here to help. For security, let me verify your identity first. What's your full name as it appears on the card?
+
+User: Kamal Hassan
+Bot: Thank you. Last four digits of your card, please:
+
+User: 8463
+Bot: OTP sent to your mobile. Please provide the 6-digit code:
+
+User: 562891
+Bot: Verified! I have your Horizon Platinum card ending in 8463. Now, can you tell me which transaction you'd like to dispute?
+
+User: There's a charge for 12,500 taka from "Online Store XYZ" on October 28th
+Bot: I see that transaction. Can you tell me why you're disputing it?
+
+User: I never made this purchase. I don't recognize this merchant at all
+Bot: I understand. This could be an unauthorized transaction. Let me help you with that. I'm going to:
+1. Immediately block your card to prevent further unauthorized charges
+2. Issue you a new card with a new number
+3. Start a fraud investigation on this transaction
+
+Bot: You won't be held responsible for the unauthorized charge of BDT 12,500.00 while we investigate. The new card will arrive within 3-5 business days. Is there anything else suspicious you've noticed?
+
+User: No, just that one transaction
+Bot: Good. We'll send you updates on the investigation via SMS and email. For now, your card ending in 8463 is blocked, and no new charges can be made. You'll receive your replacement card soon.
+
+User: Thank you so much!
+Bot: You're very welcome! We take fraud seriously. Stay safe, and call us immediately if you notice anything else unusual.
+
+═══════════════════════════════════════════════════════════════════
+
+## Conversation 4: Credit Limit Increase Request
+
+User: I want to increase my credit limit
+Bot: I can help with that! Let me verify your account first. May I have your full name?
+
+User: Fatima Begum
+Bot: Thank you. Please provide your card's last four digits:
+
+User: 7214
+Bot: OTP sent. Please provide the code:
+
+User: 429537
+Bot: Thank you, Ms. Begum. I have your Horizon Silver card ending in 7214. Your current credit limit is BDT 100,000.
+
+Bot: To request a limit increase, I need to ask you a few questions:
+1. What limit are you looking for?
+
+User: 150,000 taka
+Bot: Great. And what's the primary reason for the increase?
+
+User: I have some large purchases coming up for my business
+Bot: Understood. Based on your account history:
+• Account age: 2 years
+• Payment history: Excellent (no missed payments)
+• Current utilization: 32%
+• Last increase: 8 months ago
+
+Bot: You're pre-approved for a limit increase up to BDT 150,000! The new limit will be effective immediately. Would you like me to proceed?
+
+User: Yes please!
+Bot: Done! Your new credit limit is BDT 150,000. Your available credit is now BDT 118,000. You'll receive a confirmation SMS shortly.
+
+User: That was fast! Thank you
+Bot: My pleasure! Use your credit responsibly. Is there anything else?
+
+User: No, that's all
+Bot: Wonderful! Congratulations on your limit increase. Have a great day!
+
+═══════════════════════════════════════════════════════════════════
+
+## Conversation 5: Quick Balance Check (Short)
+
+User: Balance check please
+Bot: Sure! Name and last 4 digits?
+
+User: Rizwan Ali, 3928
+Bot: OTP sent
+
+User: 851743
+Bot: ✓ Verified. Balance: BDT 45,230.50. Available: BDT 54,769.50. Due date: Nov 20. Minimum due: BDT 3,618.00.
+
+User: Thanks
+Bot: Welcome! 👍
+
+═══════════════════════════════════════════════════════════════════
